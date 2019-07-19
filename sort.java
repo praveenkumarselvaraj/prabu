@@ -4,16 +4,16 @@ class Aray{
     public static void main(String args[]) 
     { 
         Scanner sc=new Scanner(System.in);
-        int n = sc.nextInt(); 
-        int ar[]=new int[n];
-        for(int i=0;i<n;i++)
+        int n1 = sc.nextInt(); 
+        int awr[]=new int[n];
+        for(int i=0;i<n1;i++)
         {
-            ar[i]=sc.nextInt();
+            awr[i]=sc.nextInt();
         }
-        Arrays.sort(ar);
-        for(int i=0;i<n;i++)
+        Arrays.sort(awr);
+        for(int i=0;i<n1;i++)
         {
-        System.out.print(ar[i]+" ");
+        System.out.print(awr[i]+" ");
         }
     } 
 } 
