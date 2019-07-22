@@ -1,0 +1,2 @@
+sam=input()
+print(sam)
